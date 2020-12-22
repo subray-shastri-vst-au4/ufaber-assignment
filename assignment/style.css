@@ -1,0 +1,84 @@
+
+#navbar {
+  align-items: center;
+  padding: 20px;
+  padding-right: 60px;
+}
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(24, 5, 5);
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span{
+  padding-left: 40px;
+}
+ 
+#realSchool{
+  padding-left: 60px;
+  padding-right: 100px;
+}
+#masterclass{
+  padding-right: 60px;
+  padding-left: 40px;
+}
+#programs{
+  padding-right: 60px;
+}
+#challenges{
+  padding-right: 60px;
+}
+#library{
+  padding-right: 60px;
+}
+
+
+footer{
+  padding-top: 60px;
+
+}
+#footer
+{
+}
+#container
+{
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin-right: 100px;
+  margin-left: 100px;
+  align-items: left;
+}
