@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+  <body id="body">
+    <div id="navDiv">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light border-top-0" id="navbar">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Home</a>
+        <a href="#">Goals</a>
+        <a href="#">Explorer</a>
+      </div>
+
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <a class="navbar-brand" id="realSchool" href="#">REAL SCHOOL</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav" id="list">
+        <li class="nav-item" id="masterclass">
+          <a class="nav-link text-dark" href="#">Masterclass</a>
+        </li>
+        <li class="nav-item" id="programs">
+          <a class="nav-link text-dark" href="#">Programs</a>
+        </li>
+        <li class="nav-item" id="challenges">
+          <a class="nav-link text-dark" href="#">Challenges</a>
+        </li>
+        <li class="nav-item" id="library">
+          <a class="nav-link text-dark" href="#">Library</a>
+        </li>
+      </ul>
+    </div>
+    <div>
+
+      <button type="button" onclick="alert('going to profile page')" style="border-radius: 17px; padding-right:20px ;">
+        <img src="./images/avatar1.png" height="30px" width="30px" />INR 200
+      </button>
+    </div>
+      </nav>
+    </div>
+    <div id="container">
+      <div>
+        <h6 style="color: silver;  display: inline;">Home >> Goals >> Explorer > </h6>
+        <button onclick="clickCounter()" type="button" style="display:inline; float: right;margin-top: 20px; color: rgb(75, 52, 21); border-radius: 15px;"><p id="result"></p>Recommend</button> 
+        <h2 style="padding-top: 20px;">Trip to the Palace of Versailles</h2>
+        <h6 style="display:inline-block;">ONLINE MUSEUM</h6><span>8+ YEARS</span>
+      </div>
+
+    </div>
+
+
+    <div class="  text-left text-lg-start">
+      <!-- Grid container -->
+      <div class="container p-4"> 
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-6 mb-md-0">
+            <div style="padding-top:20px;">
+              <video src="./images/200314 _Work Life_02_ 4k_017.mp4" controls width="550" height="310" style="border-radius: 10px;">
+    
+            </div>
+             
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-6 col-md-6 mb-6 mb-md-0" style="padding-left:100px ;">                
+            <h6 style="color: silver;">Live On</h6>
+            <h3><b>29 JUNE 2020 </b>for 60 min</h3><br>
+            <h6 style="color: silver;">choose slot</h6>
+            <div>
+            <button type="button" onclick="alert('slot 10.30am selected')" style="border:1px solid grey; border-radius: 20px; margin: 15px;">10.30 AM</button>
+            <button type="button" onclick="alert('slot 5.00pm selected')"style="border:1px solid grey; border-radius: 20px; margin: 15px;">05.00 PM</button>
+            <button type="button" onclick="alert('slot 6.30pm selected')" style="border:1px solid grey; border-radius: 20px; margin: 15px;">06.30 PM</button>
+            </div><br>
+            <h6 style="color: silver;">Class fee</h6>
+            <div>
+              <button type="button" style="border:1px solid grey; border-radius: 5px; margin: 15px;"><span style="text-decoration: line-through; padding: 5px;">INR 120</span> INR 60</button>
+              <a href="#" style="text-decoration:underline;">earn 100+ points</a>
+            </div><br>
+              <button type="button" class="bg-danger" style="border:1px solid ; border-radius: 5px;">Book This Class For Free</button>
+              <button type="button" style="border:1px solid red; border-radius: 5px; color: red;margin: 15px;" >share</button>
+          </div>
+
+        </div>
+ 
+
+    <div style="margin-top: 80px;">
+      <button type="button" class="bg-success" style="padding-right: 30px; border-radius: 10px; margin-bottom: 20px;"></button>
+      <h3 style = "padding-bottom: 20px;"> What Goals, Badges & Skills Will Be Achieved in this Class?</h3>
+      <button type="button" class="bg-primary" style="border-radius: 30px; margin-right: 80px;">GOALS</button>
+      <button type="button" class="bg-success" style="border-radius: 30px; margin-right: 80px;">BADGES</button>
+      <div>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">Explorer</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">Powerhouse of Ideas</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">Daredevil</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">Troubleshooter</button>
+      </div>
+      <button type="button" class="bg-warning" style="border-radius: 30px; margin-right: 80px; margin-top:20px;">Skills</button>
+      <div>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">creative thinking</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">flexible thinking</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">management</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;">strategic thinking</button>
+        <button type="button"  style="border:1px solid grey; border-radius: 20px; padding-right:30px;padding-left: 30px ; margin-top: 20px; margin-right: 20px;"><a href="#">learn more</a></button>
+      </div>
+
+    </div>
+
+    <div style="margin-top: 80px;">
+      <button type="button" class="bg-success" style="padding-right: 30px; border-radius: 10px;margin-bottom: 20px;"></button>
+      <h3 style = "padding-bottom: 20px;">
+        What Will Be Covered In This Class ?
+      </h3> 
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit 
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+        sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </p>
+
+    </div>
+
+    <div style="margin-top: 80px;">
+      <button type="button" class="bg-success" style="padding-right: 30px; border-radius: 10px;margin-bottom: 20px;"></button>
+      <h3 style = "padding-bottom: 20px;">  
+        What Are the Post-Class Asiignment?
+      </h3>
+
+<div class="row">
+  <div class="col-sm-4 text-center">
+    <div class="card">
+      <div class="card-body bg-secondary">
+        <img src="./images/assignment_img.jpg" width="250" height= "250">
+        <a href="#" class="btn btn-primary">Go to assignment</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-4 text-center">
+    <div class="card">
+      <div class="card-body bg-secondary">
+        <img src="./images/assignment_img.jpg" width="250" height= "250">
+        <a href="#" class="btn btn-primary">Go to assignment</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div style="margin-top: 80px;">
+  <button type="button" class="bg-success" style="padding-right: 30px; border-radius: 10px;margin-bottom: 20px;"></button>
+  <h3 style = "padding-bottom: 20px;">  
+    How to Get Ready for This Class?
+  </h3>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+    Duis aute irure dolor in reprehenderit in voluptate velit 
+    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+    sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+  </p>
+</div>
+
+<div style="margin-top: 80px;">
+  <button type="button" class="bg-success" style="padding-right: 30px; border-radius: 10px; margin-bottom: 20px;"></button>
+  <h3 style = "padding-bottom: 20px;">  
+    How to Attend the Class?
+  </h3>
+  <div class="row">
+    <div class="col-sm-3 text-center">
+      <div class="card">
+        <div class="card-body bg-secondary">
+          <h5 class="card-title">Step 1</h5>
+          <h5>Book Your Class</h5>
+          <p class="card-text">Go to calender & choose from wide range of masterclass.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 text-center">
+      <div class="card">
+        <div class="card-body bg-secondary">
+          <h5 class="card-title">Step 2</h5>
+          <h5>Get Prepared</h5>
+          <p class="card-text">Prepare the class by following the instruction in overview.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 text-center">
+      <div class="card">
+        <div class="card-body bg-secondary">
+          <h5 class="card-title">Step 3</h5>
+          <h5>Set Up For Class</h5>
+          <p class="card-text">Check The device and app requirements atleast 15 minutes prior to start time.</p>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 text-center">
+      <div class="card">
+        <div class="card-body bg-secondary">
+          <h5 class="card-title">Step 4</h5>
+          <h5>Join Class</h5>
+          <p class="card-text">Open the link sent to your mobile or email on the device.</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<hr style="margin-top: 60px;">
+<div style="margin-top: 80px;">
+  <h3 style="text-align: center; margin-bottom: 20px;">
+    See What Our Students have Createed
+  </h3>
+  <img src="./images/man.png" style="display: block; margin: auto; margin-bottom: 30px;" width="400" height="400">
+  <button type ="button" class="bg-danger" style="display: block; margin: auto;padding-right: 30px; border-radius: 10px; margin-bottom: 20px;"><a href="https://www.youtube.com/?gl=IN&tab=r1">Go To RealTV</a></button>
+</div>
+</div>
+</div>
+
+<div id="footer">
+<div>
+<footer class="bg-secondary text-white text-left text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4"> 
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+        <h4 class="text-uppercase">REAL SCHOOL  </h4>
+        <h6>A Product Of uFaber Edutech</h6><br>
+        <p>FF A-006, Art Guild House, Phoenix  <br>
+          Market city, Kurla, Mumbai-400070
+        </p>
+        <h6>8075012457</h6>
+        <h6>info@ufaber.com</h6>
+           
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-6 mb-md-0">                
+        <h5 class="text-uppercase">Quick Links</h5>
+
+        <ul class="list-unstyled mb-0">
+          <li>
+            <a href="#!" class="text-white">Teach with Us</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Refer a Friend</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Become an Affiliate</a>
+          </li>
+
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">About Us</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a href="#!" class="text-white">FAQs</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Blog</a>
+          </li>
+          <li>
+            <a href="#!" class="text-white">Privacy policies</a>
+          </li>
+
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+</footer>
+</div>
+<div>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(76, 70, 61, 1)">
+    © 2019 uFaber, all rights reserved.
+  </div>
+  <!-- Copyright -->
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+   
+</body>
+</html> 
